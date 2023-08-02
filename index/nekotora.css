@@ -69,6 +69,8 @@
 .icon-logo{
 	height: 20px;
     width: 20px;
+    position: relative;
+    top: 5.2px;
 }	
 .icon-gplus:before { content: '\f0d5'; } /* '' */
 .icon-github:before { content: '\f113'; } /* '' */
@@ -80,4 +82,6 @@
 .icon-tg{
 	height: 25px;
     width: 25px;
+    position: relative;
+    top: 5.2px;
 }	
