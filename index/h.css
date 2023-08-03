@@ -340,7 +340,7 @@
 	}
 	
 .about .introduct {
-    line-height: 2em
+    line-height: 2em;
 }
 
 .about .introduct img.avatar {
@@ -554,7 +554,8 @@
 
 	.gate .links .item .inner p{
 		font-size: 13px;
-		color: hsla(0,0%,100%,.6)
+		color: hsla(0,0%,100%,.6);
+		overflow: hidden;
 	}
 
 
@@ -882,6 +883,17 @@
 .kongk{
     padding-top: .10em;
 }
+
+.footer i {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    margin-right: 6px;
+    background: url(https://mbdp03.bdstatic.com/static/superlanding/img/icon_police_dd47ec2.png?v=md5) 0 0 no-repeat;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
 @keyframes lineWidth {
 	0% {
 		width: 0;
@@ -896,5 +908,12 @@
     .kong,
     .toppic-line{
         display: none;
+    }
+}
+
+@media (min-width: 860px) {
+    .about .introduct {
+    letter-spacing: .2em;
+    font-size: 18px;
     }
 }
